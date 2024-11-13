@@ -26,29 +26,35 @@ Clone este repositório para sua máquina local:
 ```bash
 git clone https://github.com/gilneifreitas/ativosfinanceiros.git
 cd ativosfinanceiros
-
+```
 
 ### 2. Crie e Ative um Ambiente Virtual (opcional, mas recomendado)
 
 Para Windows:
+```
 python -m venv venv
 .\venv\Scripts\activate
-
+```
 Para Linux/macOS:
+
+```
 python3 -m venv venv
 source venv/bin/activate
-
+```
 
 ### 3. Instale as Dependências
 
 Com o ambiente virtual ativado, instale as dependências do projeto executando:
+```
 pip install -r requirements.txt
+```
 
 ### 4. Execute o Aplicativo
 
 Com todas as dependências instaladas, você pode iniciar o aplicativo Streamlit com o seguinte comando:
+```
 streamlit run app.py
-
+```
 Seleção de Ativo:
 
 Na barra lateral do aplicativo, você verá uma lista de ativos financeiros disponíveis. Selecione o ativo desejado.
@@ -64,9 +70,9 @@ O preço atual do ativo será comparado com o preço médio ao longo do tempo, e
 
 ### Estrutura do Projeto
 A estrutura de diretórios do projeto é a seguinte:
-
+```
 ├── app.py                  # Arquivo principal do Streamlit
 ├── requirements.txt        # Arquivo com as dependências do projeto
 ├── README.md               # Este arquivo
 └── assets/                 # Diretório para arquivos estáticos (opcional)
-
+```
